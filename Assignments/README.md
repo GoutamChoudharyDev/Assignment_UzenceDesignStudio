@@ -1,12 +1,51 @@
-# React + Vite
+# 🎨 React Frontend Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
+This project is built as part of the **Frontend Assignment**.  
+It contains **two reusable React components** with proper Storybook documentation:
 
-Currently, two official plugins are available:
+1. **InputField**
+   - Flexible text input with label, placeholder, helper text, and error states.
+   - Supports variants: `filled`, `outlined`, `ghost`.
+   - Sizes: `sm`, `md`, `lg`.
+   - States: `disabled`, `invalid`, `loading`.
+   - Optional features: **Clear button ❌**, **Password toggle 👁️**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. **DataTable**
+   - Displays tabular data with configurable columns.
+   - Features:
+     - ✅ Sorting (asc/desc)
+     - ✅ Row selection (single/multiple)
+     - ✅ Loading state
+     - ✅ Empty state
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Folder Structure
+- src/
+- components/
+- InputField/
+- InputField.jsx
+- InputField.stories.jsx
+- DataTable/
+- DataTable.jsx
+- DataTable.stories.jsx
+
+
+## 🛠️ Tech Stack
+- React
+- TailwindCSS
+- Storybook
+- React Icons
+
+## ▶️ Setup Instructions
+```bash
+git clone https://github.com/GoutamChoudharyDev/Assignment_UzenceDesignStudio.git
+
+cd Assignment_UzenceDesignStudio
+
+npm install
+npm run dev    # run app
+npm run storybook  # run storybook
+
+
